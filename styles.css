@@ -37,7 +37,7 @@ body {
   padding: 1.5rem;
   border-radius: 1.25rem;
   border: 1px solid var(--gray-950);
-  box-shadow: 8px 8px var(--gray-950);
+  box-shadow: 0.5rem 0.5rem var(--gray-950);
 }
 
 .illustration {
