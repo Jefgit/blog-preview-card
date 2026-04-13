@@ -21,7 +21,6 @@ body {
 
 .blog {
   background-color: var(--yellow);
-  min-height: 100vh;
   min-height: 100svh;
   display: flex;
   align-items: center;
@@ -40,9 +39,15 @@ body {
   box-shadow: 0.5rem 0.5rem var(--gray-950);
 }
 
+.illustration-container {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+}
+
 .illustration {
   width: 100%;
-  height: 12.5rem;
+  height: 100%;
   object-fit: cover;
   border-radius: 0.625rem;
 }
@@ -69,6 +74,11 @@ body {
 .title {
   font-weight: 900;
   font-size: 1.25em;
+}
+
+.title:hover {
+  color: var(--yellow);
+  cursor: pointer;
 }
 
 .content {
